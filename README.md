@@ -15,7 +15,7 @@ SenProt is utilized in various internal systems, including bulk encryption liste
 To get started with SenProt, simply clone the repository and follow the installation instructions provided in the documentation. The library can be easily integrated into your applications, and the accompanying documentation will guide you through the process of implementing encryption and decryption functionality.
 
 ## License
-SenProt is released under the SentinelSec (SSC) Studios: Free Use Acknowledgement, which allows free derivative use of the code, and no warranty is offered with it. The library is open and available for sharing with anyone, subject to the terms and conditions outlined in the license.
+SenProt is released under the [SentinelSec (SSC) Studios: Free Use Acknowledgement](https://github.com/ThatOneCodeDev/SenProtect/blob/main/license.md), which allows free derivative use of the code, and no warranty is offered with it. The library is open and available for sharing with anyone, subject to the terms and conditions outlined in the license.
 
 ## Support and Contribution
 We welcome contributions from the community. If you'd like to contribute, please feel free to fork the repository and submit a pull request. If you encounter any issues or have suggestions for improvements, please open an issue on the GitHub repository.
