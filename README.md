@@ -1,4 +1,5 @@
 # SentinelProtect (AKA SenProt) Cryptography Library
+*This repository is still being worked on... please allow 1-2 days for this to be completed.... T.O.C.D. - 5/6/23*
 
 ## Introduction
 SenProtect (SenProt) is an encryption library developed by SentinelSec Studios (SSC) for use with encrypting and obfuscating traffic sent across SSC's internal networks. The primary goal of SenProt is to provide an easy-to-use and highly secure method of encrypting data, whether it be in bulk or on a per-transaction basis.
