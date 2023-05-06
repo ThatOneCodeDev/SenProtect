@@ -12,6 +12,15 @@ SenProt is utilized in various internal systems, including bulk encryption liste
 - **Bulk and per-transaction encryption:** SenProt supports both bulk and per-transaction encryption, allowing it to adapt to different use cases and application requirements.
 - **Seamless integration with internal systems:** SenProt is built to work seamlessly with SentinelSec Studios' internal systems, such as bulk encryption listeners, to provide end-to-end encryption for data in transit.
 
+## Integrating SenProt with SSCSentry for Enhanced Security
+For developers with access to the SSCSentry library, you can combine the use of SenProt with SSCSentry's SSCCAS (SentinelSec Conditional Access Scrambling) algorithm to significantly increase the security of your data transmission across SentinelSec Studios' internal networks. SenProt provides strong encryption for your data, while SSCSentry adds an additional layer of security by scrambling the already encrypted data.
+
+The integration of SenProt and SSCSentry allows you to encrypt and scramble data on the sender's end, then descramble and decrypt it on the receiving end. This process enhances the protection of your data against unauthorized access, modification, and use.
+
+By using SenProt and SSCSentry together in your application, you can leverage the benefits of both encryption and scrambling to further strengthen the security of your data transmission.
+
+Please note that SenProt is governed by the SentinelSec Studios: Free Use Acknowledgement license and is free to distribute and use. However, the SSCCAS algorithm and SSCSentry library are intended for internal use only at SentinelSec Studios and are governed by the terms and conditions of the SentinelSec Studios Internal Development License Agreement. Unauthorized transmission, distribution, exposure, or use of the SSCCAS algorithm, SSCSentry library, and related source code is strictly prohibited. These tools and source code are classified as confidential and proprietary information of SentinelSec Studios.
+
 ## Getting Started
 To get started with SenProt, simply clone the repository and follow the installation instructions provided in the documentation. The library can be easily integrated into your applications, and the accompanying documentation will guide you through the process of implementing encryption and decryption functionality.
 
